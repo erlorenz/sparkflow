@@ -1,0 +1,25 @@
+{
+  "_dayjs-HASH.js": {
+    "file": "assets/dayjs-HASH.js",
+    "name": "dayjs"
+  },
+  "resources/css/index.css": {
+    "file": "assets/index-HASH.css",
+    "src": "resources/css/index.css",
+    "isEntry": true
+  },
+  "resources/js/other/index.ts": {
+    "file": "assets/index-HASH0.js",
+    "name": "index",
+    "src": "resources/js/other/index.ts",
+    "isEntry": true,
+    "imports": ["_dayjs-HASH.js"]
+  },
+  "resources/js/thing/index.ts": {
+    "file": "assets/index-HASH1.js",
+    "name": "index",
+    "src": "resources/js/thing/index.ts",
+    "isEntry": true,
+    "imports": ["_dayjs-HASH.js"]
+  }
+}
